@@ -49,7 +49,7 @@
       :class="{ expand: flat }"
     >
       <v-toolbar-title>
-        <v-img src="@/assets/img/logo-small.png" max-width="50px" />
+        <v-img src="@/assets/img/rmrk.png" max-width="50px" />
       </v-toolbar-title>
       <v-spacer />
       <v-app-bar-nav-icon
@@ -65,32 +65,49 @@
           <span class="mr-2">Features</span>
         </v-btn>
         <v-btn text @click="$vuetify.goTo('#download')">
-          <span class="mr-2">Download</span>
+          <span class="mr-2">Demos</span>
         </v-btn>
-        <v-btn text @click="$vuetify.goTo('#pricing')">
+        <!-- <v-btn text @click="$vuetify.goTo('#pricing')">
           <span class="mr-2">Pricing</span>
-        </v-btn>
+        </v-btn> -->
         <v-btn rounded outlined text @click="$vuetify.goTo('#contact')">
-          <span class="mr-2">Contact us</span>
+          <span class="mr-2">Contact Us</span>
         </v-btn>
+
+        
       </div>
     </v-app-bar>
   </div>
 </template>
 
 <style scoped>
-.v-toolbar {
-  transition: 0.6s;
-}
 
-.expand {
-  height: 80px !important;
-  padding-top: 10px;
-}
+  .language-button {
+    padding: 5px; /* Ajusta el padding según sea necesario */
+  }
+
+  .flag-icon {
+    width: 30px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto;
+    vertical-align: middle;
+  }
+
+  .v-toolbar {
+    transition: 0.6s;
+  }
+
+  .expand {
+    height: 80px !important;
+    padding-top: 10px;
+  }
 </style>
 
 <script>
+import translationsMixin from '../assets/i18n/translationsMixin';
 export default {
+  mixins: [translationsMixin],
+  props: ['translations', 'language'],
+  
   data: () => ({
     drawer: null,
     isXs: false,
@@ -110,6 +127,8 @@ export default {
     onResize() {
       this.isXs = window.innerWidth < 850;
     },
+    
+    
   },
 
   watch: {

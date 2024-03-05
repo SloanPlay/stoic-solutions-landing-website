@@ -1,13 +1,16 @@
 <template>
+   
   <section id="hero">
-    <v-parallax dark src="@/assets/img/bgHero.jpg" height="750">
+    
+    <v-parallax dark src="@/assets/img/bgHero03.png" height="750">
+     
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
             <v-col cols="12" md="6" xl="8">
-              <h1 class="display-2 font-weight-bold mb-4">Stoic Solutions</h1>
-              <h1 class="font-weight-light">
-                Elevating Software, Mastering Tranquility in Technology.
+              <h1 class="display-2 font-weight-bold mb-4">RAMIRAK</h1>
+              <h1 class="font-weight-light">                
+                Building Simplified Software Solutions for a Structured Demanding World.
               </h1>
               <v-btn
                 rounded
@@ -124,30 +127,35 @@
     <div class="svg-border-waves">
       <img src="~@/assets/img/wave2.svg" />
     </div>
+    <h1> </h1>
   </section>
+  
 </template>
 
 <script>
+import translationsMixin from '../assets/i18n/translationsMixin';
+
 export default {
+  mixins: [translationsMixin],
   data() {
     return {
       dialog: false,
-      videoId: "i8IvvHJssWE",
+      videoId: "YHRDlJJFIh4",
       features: [
         {
-          img: require("@/assets/img/icon2.png"),
-          title: "Clean Design",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          img: require("@/assets/img/icon-onboarding.png"),
+          title: "Onboarding",
+          text: "Your journey begins here. Our streamlined process ensures a seamless transition into our platform.",
         },
         {
-          img: require("@/assets/img/icon1.png"),
-          title: "Secure Data",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          img: require("@/assets/img/icon-sherlock.png"),
+          title: "Sherlock",
+          text: "Dive into our anti-money laundering system effortlessly. Our streamlined process ensures a seamless transition into compliance.",
         },
         {
-          img: require("@/assets/img/icon3.png"),
-          title: "Open code",
-          text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+          img: require("@/assets/img/icon-tailor.png"),
+          title: "Tailor",
+          text: "Step into our BPM system effortlessly. Our streamlined process ensures a seamless transition into optimized workflows.",
         },
       ],
     };
@@ -179,6 +187,7 @@ export default {
     pause() {
       this.player.pauseVideo();
     },
+
   },
 };
 </script>

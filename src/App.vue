@@ -8,6 +8,25 @@
       <!-- <pricing /> -->
       <contact />
     </v-main>
+    
+
+        <!-- <v-scale-transition>
+        <v-btn
+          fab
+          v-show="fab"
+          v-scroll="onScroll"
+          dark
+          fixed
+          bottom
+          left
+          color="secondary"
+          @click="toggleLanguage">
+            <img src="@/assets/img/en.png" alt="English" v-if="language === 'en'" class="flag-icon">
+            <img src="@/assets/img/es.png" alt="Español" v-else class="flag-icon">
+        </v-btn>
+    </v-scale-transition> -->
+
+
     <v-scale-transition>
       <v-btn
         fab
@@ -28,12 +47,27 @@
 </template>
 
 <style scoped>
+.v-app {
+  font-family: Montserrat;
+}
+
 .v-main {
+  font-family: Montserrat;
   background-image: url("~@/assets/img/bgMain.png");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
 }
+
+.language-button {
+    padding: 5px; /* Ajusta el padding según sea necesario */
+  }
+
+  .flag-icon {
+    width: 30px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto;
+    vertical-align: middle;
+  }
 </style>
 
 <script>
@@ -45,8 +79,10 @@ import download from "./components/DownloadSection";
 import pricing from "./components/PricingSection";
 import contact from "./components/ContactSection";
 
+
 export default {
   name: "App",
+
 
   components: {
     navigation,
@@ -62,6 +98,9 @@ export default {
     fab: null,
     color: "",
     flat: null,
+    
+    
+
   }),
 
   created() {
@@ -93,6 +132,7 @@ export default {
     toTop() {
       this.$vuetify.goTo(0);
     },
+
   },
 };
 </script>

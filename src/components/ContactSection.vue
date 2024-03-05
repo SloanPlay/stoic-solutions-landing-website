@@ -7,18 +7,16 @@
             <v-col cols="12" sm="5">
               <h1 class="font-weight-light display-1">Contact us</h1>
               <h3 class="font-weight-light mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste
-                explicabo commodi quisquam asperiores dolore ad enim provident
-                veniam perferendis voluptate, perspiciatis.
+                Let's Connect! We're here to listen and assist you with whatever you need. Whether you have questions, feedback, or are ready to take the next step, feel free to get in touch with us. Our team is ready to provide the support and assistance you need to achieve your goals.
               </h3>
               <h3 class="font-weight-light mt-3">
-                Lorem ipsum dolor sit amet consectetur adipisicing.
+                We look forward to collaborating with you.
               </h3>
               <h3 class="font-weight-light mt-3">
-                Phone: +xx (xx) xxxxx-xxxx
+                
               </h3>
               <h3 class="font-weight-light">
-                Email: email@email.com
+              
               </h3>
             </v-col>
             <v-col cols="12" sm="7">
