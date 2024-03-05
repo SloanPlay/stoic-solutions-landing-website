@@ -5,9 +5,6 @@
     
     <v-parallax dark src="@/assets/img/bgHero03.png" height="750">
      
-    
-    <v-parallax dark src="@/assets/img/bgHero03.png" height="750">
-     
       <v-row align="center" justify="center">
         <v-col cols="10">
           <v-row align="center" justify="center">
