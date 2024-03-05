@@ -10,15 +10,19 @@
             <v-col cols="12" sm="8" class="white--text text-left">
               <h1 class="font-weight-light display-2 mb-2">Live Demo</h1>
               <h1 class="font-weight-light">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ex
-                animi quod laboriosam vel blanditiis labore alias, aliquid,
-                tempora repellendus non.
+                Experience Our Services Firsthand! Explore our live demos to see our solutions in action. Witness how our services can transform your business and elevate your operations. Schedule a demo today and discover the power of our innovative offerings
               </h1>
-              <v-btn rounded outlined href="https://aure.app/login" target="_blank" large color="white" class="mt-4">
-                <!-- <v-icon class="mr-2">
-                  mdi-github
-                </v-icon> -->
-                Go to Aure
+              
+              <v-btn rounded outlined href="http://ramirak.com/SA/" target="_blank" large color="white" class="mt-4" >   
+                Sherlock
+              </v-btn>
+
+              <v-btn rounded outlined href="http://ramirak.com/Tailor/logon/login.aspx" target="_blank" large color="white" class="mt-4 ml-4">                
+                Tailor
+              </v-btn>
+
+              <v-btn rounded outlined href="http://localhost:4200/" target="_blank" large color="white" class="mt-4 ml-4">                
+                Onboarding
               </v-btn>
             </v-col>
           </v-row>

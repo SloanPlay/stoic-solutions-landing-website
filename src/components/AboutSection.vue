@@ -7,7 +7,7 @@
             <v-col cols="12" md="7">
               <h1 class="font-weight-light display-2">About</h1>
               <h1 class="font-weight-light display-1 mb-3">
-                Lorem ipsum dolor!
+                Empowering Businesses with Innovative Solutions
               </h1>
               <v-row>
                 <v-col cols="12" class="d-flex align-center">
@@ -17,9 +17,7 @@
                     class="mr-4"
                   />
                   <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    At Our Company, we specialize in crafting solutions tailored to your budget and needs. From startups to established enterprises, we're committed to delivering customized services that drive success. Contact us today to explore how we can help your business thrive
                   </p>
                 </v-col>
                 <v-col cols="12" class="d-flex align-center">
@@ -29,9 +27,7 @@
                     class="mr-4"
                   />
                   <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    We're a trusted name in the industry, with a proven track record of delivering exceptional solutions. With years of experience and satisfied clients, we're here to meet your needs and exceed your expectations. Choose us for reliable expertise and unparalleled service
                   </p>
                 </v-col>
                 <v-col cols="12" class="d-flex align-center">
@@ -41,9 +37,7 @@
                     class="mr-4"
                   />
                   <p class="text-justify">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    We have a forward-thinking approach and global perspective, dedicated to pushing boundaries and creating innovative solutions. Partner with us to unlock new possibilities and reach new heights
                   </p>
                 </v-col>
               </v-row>

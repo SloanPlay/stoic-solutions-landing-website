@@ -21,7 +21,7 @@
       <v-divider></v-divider>
 
       <v-card-text class="white--text">
-        {{ new Date().getFullYear() }} — <strong>Stoic Solutions</strong>
+        {{ new Date().getFullYear() }} — <strong>RAMIRAK Canada Inc. All rights reserved</strong>
       </v-card-text>
     </v-card>
   </v-footer>
@@ -37,21 +37,21 @@
 export default {
   data: () => ({
     icons: [
-      {
-        text: "mdi-facebook",
-        link: "",
-      },
+      // {
+      //   text: "mdi-facebook",
+      //   link: "",
+      // },
       {
         text: "mdi-twitter",
-        link: "",
+        link: "https://twitter.com/_Ramirak",
       },
       {
-        text: "mdi-linkedin",
-        link: "",
+        text: "mdi-youtube",
+        link: "https://www.youtube.com/@RamirakSolutions",
       },
       {
         text: "mdi-instagram",
-        link: "https://instagram.com/joabson_arley/",
+        link: "https://www.instagram.com/ramiraksolutions/",
       },
     ],
   }),

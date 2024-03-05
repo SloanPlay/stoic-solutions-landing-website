@@ -1,0 +1,10 @@
+{
+    "en": {
+      "title": "Welcome",
+      "description": "This is the English description."
+    },
+    "es": {
+      "title": "Bienvenido",
+      "description": "Esta es la descripción en español."
+    }
+  }
