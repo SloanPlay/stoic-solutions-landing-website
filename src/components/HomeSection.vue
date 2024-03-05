@@ -1,6 +1,10 @@
 <template>
    
+   
   <section id="hero">
+    
+    <v-parallax dark src="@/assets/img/bgHero03.png" height="750">
+     
     
     <v-parallax dark src="@/assets/img/bgHero03.png" height="750">
      
@@ -128,21 +132,30 @@
       <img src="~@/assets/img/wave2.svg" />
     </div>
     <h1> </h1>
+    <h1> </h1>
   </section>
+  
   
 </template>
 
 <script>
 import translationsMixin from '../assets/i18n/translationsMixin';
 
+import translationsMixin from '../assets/i18n/translationsMixin';
+
 export default {
+  mixins: [translationsMixin],
   mixins: [translationsMixin],
   data() {
     return {
       dialog: false,
       videoId: "YHRDlJJFIh4",
+      videoId: "YHRDlJJFIh4",
       features: [
         {
+          img: require("@/assets/img/icon-onboarding.png"),
+          title: "Onboarding",
+          text: "Your journey begins here. Our streamlined process ensures a seamless transition into our platform.",
           img: require("@/assets/img/icon-onboarding.png"),
           title: "Onboarding",
           text: "Your journey begins here. Our streamlined process ensures a seamless transition into our platform.",
@@ -151,8 +164,14 @@ export default {
           img: require("@/assets/img/icon-sherlock.png"),
           title: "Sherlock",
           text: "Dive into our anti-money laundering system effortlessly. Our streamlined process ensures a seamless transition into compliance.",
+          img: require("@/assets/img/icon-sherlock.png"),
+          title: "Sherlock",
+          text: "Dive into our anti-money laundering system effortlessly. Our streamlined process ensures a seamless transition into compliance.",
         },
         {
+          img: require("@/assets/img/icon-tailor.png"),
+          title: "Tailor",
+          text: "Step into our BPM system effortlessly. Our streamlined process ensures a seamless transition into optimized workflows.",
           img: require("@/assets/img/icon-tailor.png"),
           title: "Tailor",
           text: "Step into our BPM system effortlessly. Our streamlined process ensures a seamless transition into optimized workflows.",
@@ -187,6 +206,7 @@ export default {
     pause() {
       this.player.pauseVideo();
     },
+
 
   },
 };
